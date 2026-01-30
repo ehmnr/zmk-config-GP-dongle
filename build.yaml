@@ -18,3 +18,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice60
+    shield: nice60_peri
+  - board: nice60
+    shield: nice60_dongle
+  - board: nice60
+    shield: settings_reset
