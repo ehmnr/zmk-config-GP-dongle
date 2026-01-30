@@ -4,7 +4,7 @@
 if SHIELD_nice60_dongle
 
 config ZMK_KEYBOARD_NAME
-    default "nice!60-GP"
+    default "nice!60"
 
 if USB_DEVICE_STACK
 
@@ -16,7 +16,7 @@ endif # USB_DEVICE_STACK
 config BT_CTLR
     default BT
 
-endif # BOARD_NICE60
+endif
 
 
 
@@ -29,10 +29,6 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 config ZMK_USB
 	default y
 
-endif
-
-if SHIELD_nice60_peri || SHIELD_nice60_dongle
-
 config ZMK_SPLIT
 	default y
 
@@ -41,3 +37,12 @@ config ZMK_BLE
 
 endif
 
+if BOARD_NICE60
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+
+endif
