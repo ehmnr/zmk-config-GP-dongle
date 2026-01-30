@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice60
     shield: nice60_peri
-  - board: nice_nano_v2
+  - board: nice60
     shield: nice60_dongle
-  - board: nice_nano_v2
+  - board: nice60
     shield: settings_reset
