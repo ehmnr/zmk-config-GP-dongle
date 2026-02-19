@@ -26,7 +26,7 @@
 
         bindings = <
         &kp ESC     &kp TAB     &kp N1       &kp UP     &kp N2      &kp N3
-        &kp LSHFT   &kp SPACE       &kp SPACE     &kp DOWN   &kp RIGHT   &kp B       &kp RET
+        &kp LSHFT   &kp A       &kp LEFT     &kp DOWN   &kp RIGHT   &kp B       &kp RET
         &kp LCTRL   &kp C       &kp D        &kp E      &kp F       &kp G       &kp H       &kp I
                                                         &kp J       &kp K       &kp L       &kp M
 
